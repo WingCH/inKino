@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:core/core.dart';
+import 'package:inkino/core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:inkino/message_provider.dart';
 import 'package:inkino/ui/common/info_message_view.dart';

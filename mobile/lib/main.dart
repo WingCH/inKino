@@ -1,11 +1,12 @@
 import 'dart:async';
 import 'dart:ui' as ui;
-
-import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:http/http.dart';
+import 'package:inkino/core/redux/_common/common_actions.dart';
+import 'package:inkino/core/redux/app/app_state.dart';
+import 'package:inkino/core/redux/store.dart';
 import 'package:inkino/message_provider.dart';
 import 'package:inkino/ui/main_page.dart';
 import 'package:key_value_store_flutter/key_value_store_flutter.dart';
@@ -18,7 +19,7 @@ Future<void> main() async {
   final keyValueStore = FlutterKeyValueStore(prefs);
   final store = createStore(Client(), keyValueStore);
 
-  FinnkinoApi.useFinnish = ui.window.locale.languageCode == 'fi';
+//  FinnkinoApi.useFinnish = ui.window.locale.languageCode == 'fi';
   runApp(InKinoApp(store));
 }
 

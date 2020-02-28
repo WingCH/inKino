@@ -1,7 +1,7 @@
-import 'package:core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:inkino/assets.dart';
+import 'package:inkino/core/core.dart';
 import 'package:inkino/message_provider.dart';
 import 'package:kt_dart/collection.dart';
 

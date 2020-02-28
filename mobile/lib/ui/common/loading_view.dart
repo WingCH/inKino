@@ -1,7 +1,6 @@
 import 'dart:collection';
-
-import 'package:core/core.dart';
 import 'package:flutter/material.dart';
+import 'package:inkino/core/core.dart';
 import 'package:meta/meta.dart';
 
 class LoadingView extends StatefulWidget {

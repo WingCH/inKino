@@ -1,4 +1,4 @@
-import 'package:core/core.dart';
+import 'package:inkino/core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:inkino/assets.dart';
 import 'package:inkino/ui/common/widget_utils.dart';

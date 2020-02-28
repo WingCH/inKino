@@ -1,8 +1,7 @@
 import 'dart:async';
 import 'dart:ui';
-
-import 'package:core/core.dart';
 import 'package:flutter/material.dart';
+import 'package:inkino/core/core.dart';
 import 'package:intl/intl.dart';
 
 class MessageProvider {

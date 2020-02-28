@@ -40,4 +40,5 @@ build/
 .firebase-debug.log
 .DS_Store
 
-core/lib/src/tmdb_config.dart
+#方便study
+#core/lib/src/tmdb_config.dart

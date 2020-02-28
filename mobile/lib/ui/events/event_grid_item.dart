@@ -1,4 +1,4 @@
-import 'package:core/core.dart';
+import 'package:inkino/core/core.dart';
 import 'package:flutter/material.dart';
 import 'package:inkino/ui/events/event_poster.dart';
 import 'package:inkino/ui/events/event_release_date_information.dart';
